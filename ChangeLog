@@ -1,5 +1,7 @@
 	[Upcoming]
 
+	Update CI to use ubuntu latest.
+
 	[4.0.0]
 
 	Improve connection management by closing the connection while
