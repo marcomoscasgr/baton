@@ -68,7 +68,7 @@ jobs:
           conda install -y -n "$CONDA_TEST_ENVIRONMENT" sphinx=2.4
 
           conda install -y -n "$CONDA_TEST_ENVIRONMENT" check
-          conda install -y -n "$CONDA_TEST_ENVIRONMENT" libjansson-dev
+          conda install -y -n "$CONDA_TEST_ENVIRONMENT" -c conda-forge jansson
           conda install -y -n "$CONDA_TEST_ENVIRONMENT" "irods-dev ==${{ matrix.irods }}"
 
           conda install -y -n "$CONDA_TEST_ENVIRONMENT" "irods-icommands ==${{ matrix.irods }}"
